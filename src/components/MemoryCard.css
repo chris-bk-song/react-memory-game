@@ -22,7 +22,7 @@
 }
 
 .MemoryCard__inner.flipped {
-  transform: rotateX(180deg);
+  transform: rotateY(180deg);
 }
 
 .MemoryCard__front,
