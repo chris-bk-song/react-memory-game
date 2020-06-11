@@ -5,13 +5,13 @@ import './App.css';
 // Helper function that can generate a deck of memory cards
 // This is basic JS function that returns an array of cards
 function generateDeck() {
-  var symbols = ['∆', 'ß', '£', '§', '•', '$', '+', 'ø']
+  var symbols = ['ㄱ', 'ㄴ', 'ㄷ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅅ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
   var deck = []
   // For loop that will loop 16 times
-  for (let i=0; i<16; i++) { 
+  for (let i=0; i<28; i++) { 
     deck.push({
       isFlipped: false,
-      symbol: symbols[i%8]
+      symbol: symbols[i%14]
     })
   }
   return shuffle(deck);
@@ -109,13 +109,16 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1>Memory Game</h1>
-          <p className="Subtitle">Match cards to win</p>
+          <p className="Subtitle">with Korean consonants</p>
         </header>
         <div className="Body">
           <div>{cardsJSX.slice(0,4)}</div>
           <div>{cardsJSX.slice(4,8)}</div>
           <div>{cardsJSX.slice(8,12)}</div>
           <div>{cardsJSX.slice(12,16)}</div>
+          <div>{cardsJSX.slice(16,20)}</div>
+          <div>{cardsJSX.slice(20,24)}</div>
+          <div>{cardsJSX.slice(24,28)}</div>
         </div>
       </div>
     );
