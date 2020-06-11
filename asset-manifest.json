@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-memory-game/static/css/main.46fe4bdc.chunk.css",
+    "main.js": "/react-memory-game/static/js/main.3c25afed.chunk.js",
+    "main.js.map": "/react-memory-game/static/js/main.3c25afed.chunk.js.map",
+    "runtime-main.js": "/react-memory-game/static/js/runtime-main.64ab7d18.js",
+    "runtime-main.js.map": "/react-memory-game/static/js/runtime-main.64ab7d18.js.map",
+    "static/js/2.21cb2dde.chunk.js": "/react-memory-game/static/js/2.21cb2dde.chunk.js",
+    "static/js/2.21cb2dde.chunk.js.map": "/react-memory-game/static/js/2.21cb2dde.chunk.js.map",
+    "index.html": "/react-memory-game/index.html",
+    "precache-manifest.080b5d5484741e9de0ea32b4dfe7fc43.js": "/react-memory-game/precache-manifest.080b5d5484741e9de0ea32b4dfe7fc43.js",
+    "service-worker.js": "/react-memory-game/service-worker.js",
+    "static/css/main.46fe4bdc.chunk.css.map": "/react-memory-game/static/css/main.46fe4bdc.chunk.css.map",
+    "static/js/2.21cb2dde.chunk.js.LICENSE.txt": "/react-memory-game/static/js/2.21cb2dde.chunk.js.LICENSE.txt",
+    "static/media/logo-wrench-white.png": "/react-memory-game/static/media/logo-wrench-white.f2d91aa6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64ab7d18.js",
+    "static/js/2.21cb2dde.chunk.js",
+    "static/css/main.46fe4bdc.chunk.css",
+    "static/js/main.3c25afed.chunk.js"
+  ]
+}
