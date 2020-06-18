@@ -1,1 +1,1 @@
-React Memory Card Game Part 1
+Create Memory Game using React
